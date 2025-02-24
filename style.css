@@ -3,3 +3,57 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  color: red;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav a {
+  padding: 0 10px; 
+  background-color: grey; 
+  text-align: center; 
+  display: inline-block; 
+}
+nav {
+  text-align: center;
+}
+figcaption {
+  font-size: 14px; 
+  text-align: center; 
+  margin-top: 10px; 
+}
+#featured-property img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+#featured-property p {
+  width: 800px; 
+  margin: 20px auto; 
+  text-align: center; 
+}
+#details {
+  overflow: hidden; 
+}
+
+#details div {
+  float: left; 
+  width: 25%; 
+  text-align: center; 
+  background-color: lightgrey; 
+  box-sizing: border-box; 
+  padding: 10px; 
+}
+#details div {
+  float: left;
+  width: 25%;
+  text-align: center;
+  background-color: rgb(235, 19, 19);
+  box-sizing: border-box;
+  padding: 10px;
+}
